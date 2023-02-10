@@ -31,15 +31,12 @@
       </div>
     </div>
     <div class="weather__to__week__with__slider">
-
     </div>
   </div>
 </template>
 
 <script>
 import "./Weather.css"
-import VueSlider from 'vue-slider-component'
-import 'vue-slider-component/theme/default.css'
 
 
 export default {
@@ -55,7 +52,6 @@ export default {
   mounted() {
   },
   components: {
-    VueSlider
   }
 }
 </script>

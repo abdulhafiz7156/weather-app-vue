@@ -1,0 +1,78 @@
+
+.weather__and__data__time {
+    text-align: left;
+}
+
+.celsius__or__fahrenheit {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    width: 90px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 100px;
+}
+
+.celsius__or__fahrenheit__active {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 100px;
+    height: 35px;
+}
+
+.celsius__or__fahrenheit div {
+    width: 45px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weather__and__data__time h1 {
+    font-size: 164px;
+    font-weight: 100;
+}
+
+.weather__and__data__time h1 sup {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.data__and__time h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-shadow: -2px 2px 0.5px #00000024;
+}
+
+.data__and__time {
+    text-align: left;
+}
+
+.data__and__time p span {
+    padding: 0px 15px;
+}
+
+.data__and__time p {
+ padding-top: 5px;
+}
+
+.wind__humidity__rain {
+    margin-top: 10px;
+}
+
+.wind__humidity__rain div img {
+    padding-right: 10px;
+}
+
+.wind__humidity__rain div {
+    padding: 0px 20px;
+}
+
+.wind__humidity__rain div:first-child {
+    padding-left: 0px!important;
+}
+
+.wind__humidity__rain div p span {
+    padding-left: 10px;
+}
